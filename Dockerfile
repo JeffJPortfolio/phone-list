@@ -5,7 +5,7 @@ FROM openjdk:17
 WORKDIR /app
 
 # 빌드된 jar 파일을 컨테이너의 /app 디렉토리로 복사
-COPY target/api-phonelist-0.0.1-SNAPSHOT.jar /app/api-phonelist.jar
+COPY target/api-phonebook-0.0.1-SNAPSHOT.jar /app/api-phonebook.jar
 
 # 컨테이너가 시작될 때 실행될 명령어 설정
 ENTRYPOINT ["java", "-jar", "/app/api-phonelist.jar"]
