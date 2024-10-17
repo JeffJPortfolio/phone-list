@@ -8,4 +8,5 @@ WORKDIR /app
 COPY target/api-phonebook-0.0.1-SNAPSHOT.jar /app/api-phonebook.jar
 
 # 컨테이너가 시작될 때 실행될 명령어 설정
+# 컨테이너가 시작될 때 실행될 명령어 설정
 ENTRYPOINT ["java", "-jar", "/app/api-phonelist.jar"]
