@@ -30,7 +30,6 @@ public class PhonebookController {
 		List<PersonVo> personList = phonebookService.exeGetPersonList();
 		return JsonResult.success(personList);
 	}
-	/**/
 	
 	
 }
